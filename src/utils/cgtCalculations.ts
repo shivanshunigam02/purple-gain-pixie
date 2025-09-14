@@ -37,10 +37,10 @@ export interface CGTResults {
 // Australian tax brackets for 2025-26 (residents)
 const TAX_BRACKETS = [
   { min: 0, max: 18200, rate: 0, base: 0 },
-  { min: 18201, max: 45000, rate: 0.16, base: 0 },
-  { min: 45001, max: 135000, rate: 0.30, base: 4288 },
-  { min: 135001, max: 190000, rate: 0.37, base: 31288 },
-  { min: 190001, max: Infinity, rate: 0.45, base: 51638 }
+  { min: 18201, max: 45000, rate: 0.19, base: 0 },
+  { min: 45001, max: 135000, rate: 0.30, base: 5092 },
+  { min: 135001, max: 190000, rate: 0.37, base: 32092 },
+  { min: 190001, max: Infinity, rate: 0.45, base: 52292 }
 ];
 
 export function calculateIncomeTax(taxableIncome: number): number {
