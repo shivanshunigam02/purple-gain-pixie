@@ -60,44 +60,44 @@ All colors MUST be HSL.
   }
 
   .dark {
-    /* Dark mode - Black background with purple accents */
-    --background: 0 0% 8%;
+    /* Dark mode - Lighter dark grey background with purple accents */
+    --background: 0 0% 15%;
     --foreground: 0 0% 95%;
 
-    --card: 0 0% 12%;
+    --card: 0 0% 20%;
     --card-foreground: 0 0% 95%;
 
-    --popover: 0 0% 12%;
+    --popover: 0 0% 20%;
     --popover-foreground: 0 0% 95%;
 
     /* Keep purple accent in dark mode */
     --primary: 259 100% 65%;
-    --primary-foreground: 0 0% 8%;
+    --primary-foreground: 0 0% 15%;
 
-    --secondary: 0 0% 18%;
+    --secondary: 0 0% 25%;
     --secondary-foreground: 0 0% 95%;
 
-    --muted: 0 0% 18%;
+    --muted: 0 0% 25%;
     --muted-foreground: 0 0% 65%;
 
     --accent: 259 100% 65%;
-    --accent-foreground: 0 0% 8%;
+    --accent-foreground: 0 0% 15%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 95%;
 
-    --border: 0 0% 25%;
-    --input: 0 0% 25%;
+    --border: 0 0% 30%;
+    --input: 0 0% 30%;
     --ring: 259 100% 65%;
 
     /* Calculator specific tokens - dark */
-    --calculator-body: 0 0% 6%;
-    --calculator-card: 0 0% 12%;
+    --calculator-body: 0 0% 12%;
+    --calculator-card: 0 0% 20%;
     --calculator-shadow: 0 0% 0% / 0.3;
     --calculator-input-focus: 259 100% 65% / 0.2;
     
     /* Results section - dark */
-    --results-background: 0 0% 15%;
+    --results-background: 0 0% 22%;
     --results-highlight: 259 100% 65%;
     --results-text: 0 0% 95%;
     --results-muted: 0 0% 65%;
